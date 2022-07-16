@@ -8,6 +8,10 @@
  justify-content: center;
 }
 
+.home-style{
+  background-color: #E9A392;
+}
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
