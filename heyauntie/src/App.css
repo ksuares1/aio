@@ -9,7 +9,13 @@
 }
 
 .home-style{
-  background-color: #E9A392;
+   background-image:
+  url("../../heyauntie/src/assets/img/home-bk.png");
+}
+
+.logo{
+  max-width:100px;
+  max-height: 100px;
 }
 
 
