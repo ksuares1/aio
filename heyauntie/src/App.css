@@ -5,12 +5,15 @@
 
 .homepage{
  display: flex;
- justify-content: center;
+ justify-content: left;
+ /* width:'100%';
+  height:'200px'; */
 }
 
 .home-style{
    background-image:
   url("../../heyauntie/src/assets/img/home-bk.png");
+  background-size: cover;
 }
 
 .logo{

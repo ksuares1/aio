@@ -21,7 +21,7 @@ function Toolbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                <img class="logo"src={require("../assets/img/pink-logo.png")} alt="heyauntie-logo" />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -32,8 +32,6 @@ function Toolbar() {
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-              
-                    
                     <NavDropdown.Item href="#action5">
                       Something else here
                     </NavDropdown.Item>
