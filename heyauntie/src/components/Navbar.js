@@ -27,13 +27,13 @@ function Toolbar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="#action2">Sign In </Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Comunity Lounge"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item href="#action5">
-                      Something else here
+                      Text goes here
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>

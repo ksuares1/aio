@@ -3,19 +3,26 @@
 }
 
 
-.homepage{
- display: flex;
- justify-content: left;
- /* width:'100%';
-  height:'200px'; */
-}
-
 .home-style{
    background-image:
   url("../../heyauntie/src/assets/img/home-bk.png");
   background-size: cover;
+  min-height: 100vh;
 }
 
+.homepage{
+  display: flex;
+  justify-content: left;
+ }
+ 
+.main-info{
+  display: flex;
+  justify-content: right;
+}
+
+.main-info{
+  
+}
 .logo{
   max-width:150px;
   max-height: 150px;
