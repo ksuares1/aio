@@ -11,8 +11,7 @@
 }
 
 .homepage{
-  display: flex;
-  justify-content: left;
+  display:inline;
  }
  
 .main-info{
@@ -20,10 +19,7 @@
   display:inline-block;
   justify-content: right;
   overflow: hidden;
-  
- 
-}
-
+  }
 
 .logo{
   max-width:150px;
