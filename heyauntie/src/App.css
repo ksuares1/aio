@@ -14,12 +14,11 @@
   display:inline;
  }
  
-.main-info{
- display: flex; 
-  display:inline-block;
-  justify-content: right;
-  overflow: hidden;
-  }
+.main-section{
+  display:flex;
+  flex-direction: row;
+  display: inline-block;
+}
 
 .logo{
   max-width:150px;

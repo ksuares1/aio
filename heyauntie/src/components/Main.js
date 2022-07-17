@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 let MainPage=() =>{
     return (
-        <main>
+        <main class="main-section">
             <div class="homepage">
                 <img class="main-background" src={require("../assets/img/main-img.PNG")} alt="heyauntie-main-img" />
             
