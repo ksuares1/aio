@@ -16,13 +16,15 @@
  }
  
 .main-info{
-  display: flex;
+ display: flex; 
+  display:inline-block;
   justify-content: right;
+  overflow: hidden;
+  
+ 
 }
 
-.main-info{
-  
-}
+
 .logo{
   max-width:150px;
   max-height: 150px;
