@@ -10,16 +10,23 @@
   min-height: 100vh;
 }
 
-.homepage{
-  display:inline;
+.homepage::after{
+  content: "";
+  clear:both;
+  display:table;
  }
  
 .main-section{
-  display:flex;
+  /* display:flex;
   flex-direction: row;
-  display: inline-block;
+  display: inline-block; */
+  /* float:right; */
+  width:33.3%;
+  padding:5px;
 }
-
+ .card-info{
+   float:right;
+} 
 .logo{
   max-width:150px;
   max-height: 150px;

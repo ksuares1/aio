@@ -4,11 +4,15 @@ import Card from 'react-bootstrap/Card';
 
 let MainPage=() =>{
     return (
-        <main class="main-section">
+        <main>
+          <div class="main-section">
             <div class="homepage">
                 <img class="main-background" src={require("../assets/img/main-img.PNG")} alt="heyauntie-main-img" />
-            
-            <Card style={{ width: '18rem', height:'35%', float:'right', bottom:'0', position:"relative"}}>
+             </div>
+             
+             <div class="homepage">
+              <div class="card-info">
+            <Card class="card-info" style={{ width: '18rem', height:'35%', float:'right', bottom:'0', position:"relative"}}>
       <Card.Body>
         <Card.Title>A community to help you rise and thrive.</Card.Title>
         <br/>
@@ -27,6 +31,8 @@ let MainPage=() =>{
       </div>
       </Card.Body>
     </Card>
+    </div>
+    </div>
     </div>
         </main>
     )
