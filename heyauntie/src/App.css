@@ -24,8 +24,19 @@
   min-height: 100vh;
 }
 
+.blue-img{
+  text-align:center;
+}
 
-
+.gmail-btn{
+  color:black;
+  font-weight:bold;
+  font-size:35px;
+}
+.blue-logo{
+  width:35%;
+  height:25%;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
