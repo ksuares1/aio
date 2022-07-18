@@ -10,27 +10,20 @@
   min-height: 100vh;
 }
 
-.homepage::after{
-  content: "";
-  clear:both;
-  display:table;
- }
- 
-.main-section{
-  /* display:flex;
-  flex-direction: row;
-  display: inline-block; */
-  /* float:right; */
-  width:33.3%;
-  padding:5px;
-}
- .card-info{
-   float:right;
-} 
+
+
 .logo{
   max-width:150px;
   max-height: 150px;
 }
+
+
+.profile-img{
+  background-image: url("../../heyauntie/src/assets/img/profile.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
 
 
 /* @media (prefers-reduced-motion: no-preference) {
