@@ -42,6 +42,17 @@
   width:35%;
   height:25%;
 }
+
+/* homepage */
+.home-container{
+  display:flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+.text-container{
+  flex-direction: column;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

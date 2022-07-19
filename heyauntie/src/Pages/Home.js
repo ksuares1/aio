@@ -1,5 +1,5 @@
 import Toolbar from "../components/Navbar";
-
+import Homepage from "../components/Homepage";
 
 
 const Home =() =>{
@@ -7,6 +7,7 @@ const Home =() =>{
         <main class="home-style">
              <div class="heyauntie-img"> 
                 <Toolbar/>
+                <Homepage/>
                 </div>
         </main>
     )
