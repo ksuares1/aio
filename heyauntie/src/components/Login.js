@@ -6,7 +6,7 @@ const Signup =() =>{
         
         <div class="profile-img">
         <div class="blue-img">
-            <a href="/home">
+            <a href="/">
             <img href="/" class="blue-logo"  src={require('../assets/img/blue-logo.png')} alt="heyauntie-blue-logo" />
             </a>
             </div>
