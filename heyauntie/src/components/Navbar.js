@@ -28,7 +28,7 @@ function Toolbar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/profile">Profile</Nav.Link>
-                  <Nav.Link href="#action2">Sign In </Nav.Link>
+                  <Nav.Link href="/login">Login </Nav.Link>
                   <NavDropdown
                     title="Comunity Lounge"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
