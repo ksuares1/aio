@@ -1,4 +1,4 @@
-
+import Button from 'react-bootstrap/Button';
 
 const Homepage=()=>{
     return(
@@ -8,7 +8,23 @@ const Homepage=()=>{
             </div>
             <div class="text-container">
                     <h1> A community to help you rise and thrive.</h1> 
+                    <br/>
                     <p> HeyAuntie is a culturally sensitive, safe, supportive,and accessible, platform for black women, and the unique challenges we face in our everyday lives.</p>
+                    <br/>
+                    <div class="btns-container">
+                    <div className="mb-2">
+                        <a href="/login">
+                <Button id="log-btn" variant="primary" size="lg">
+                     LOGIN
+                     </Button>{' '}
+                     </a>
+                     <a href="/questions">
+                <Button id="invite" variant="secondary" size="lg">
+                    Request an Invite
+                </Button>
+                </a>
+      </div>
+                    </div>
                 </div>
             
         </div>

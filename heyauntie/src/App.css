@@ -46,14 +46,24 @@
 /* homepage */
 .home-container{
   display:flex;
-  /* flex-direction: row; */
   align-items: center;
 }
 
 .text-container{
   display: flex;
   flex-direction: column;
+}
 
+#invite{
+  float:right;
+  font-family: Bely;
+  font-size: 25px;
+}
+
+#log-btn{
+  background-color:  #001130;
+  color:white;
+  font-family: Bely;
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
