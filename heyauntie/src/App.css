@@ -28,7 +28,14 @@
   text-align:center;
 }
 
+/* .profile-btns{
+  display:flex;
+  align-items: center;
+} */
 
+.container{
+  text-align: center;
+}
 .blue-logo{
   width:35%;
   height:25%;
