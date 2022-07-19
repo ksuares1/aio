@@ -21,7 +21,7 @@ function Toolbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img class="logo"src={require("../assets/img/pink-logo.png")} alt="heyauntie-logo" href="/home"/>
+                <img class="logo"src={require("../assets/img/pink-logo.png")} alt="heyauntie-logo"/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

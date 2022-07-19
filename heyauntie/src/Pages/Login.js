@@ -2,7 +2,7 @@ import Signup from "../components/Login"
 
 
 
-const Profile=()=>{
+const Login=()=>{
     return(
         <>
         <Signup/>
@@ -10,4 +10,4 @@ const Profile=()=>{
     )
 }
 
-export default Profile;
+export default Login;
