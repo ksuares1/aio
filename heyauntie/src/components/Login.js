@@ -11,8 +11,10 @@ const Signup =() =>{
             <br/>
             <div class="container">
             <div class="profile-btns" col-md-12 text-center>  
-           <Button variant="outline-primary">Primary</Button>{' '}
-      <Button variant="outline-secondary">Secondary</Button>{' '}
+           <Button variant="outline-primary">Login with Facebook</Button>{' '}
+           </div>
+           <div>
+      <Button variant="outline-secondary">Login with Gmail</Button>{' '}
             </div>
            </div>
            </div>
