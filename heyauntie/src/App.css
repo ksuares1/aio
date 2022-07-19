@@ -55,14 +55,24 @@
 }
 
 #invite{
-  float:right;
+   float:right;  
   font-family: Bely;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #log-btn{
   background-color:  #001130;
   color:white;
+  font-family: Bely;
+  font-size: 18px;
+}
+
+.home-para{
+  font-family: Bely;
+  font-size:20px;
+}
+
+.home-heading{
   font-family: Bely;
 }
 /* @media (prefers-reduced-motion: no-preference) {
