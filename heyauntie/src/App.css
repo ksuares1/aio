@@ -79,6 +79,8 @@
 /* Questions */
 .questions-bkg{
   background-image:url("../src/assets/img/questions-bkg.png");
+  background-size: cover;
+  min-height: 100vh;
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
