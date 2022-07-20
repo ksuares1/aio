@@ -54,7 +54,7 @@
 
 #invite{ 
   font-family: Bely;
-  background-color:  #001130;
+  background-color:  #001130; 
   font-size: 18px;
 }
 
@@ -63,7 +63,8 @@
   color:white;
   font-family: Bely;
   font-size: 18px;
-  width:18%;
+  height:37px;
+  width:75px;
 
 }
 

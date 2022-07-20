@@ -16,7 +16,7 @@ const Homepage=()=>{
                     <div className="mb-2">
                         <a href="/login">
                 <Button id="log-btn" variant="primary" size="lg">
-                     LOGIN
+                     Login
                      </Button>{' '}
                      </a>
                      <a href="/questions">
