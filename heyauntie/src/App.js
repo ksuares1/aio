@@ -6,7 +6,8 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Questions from './Pages/Questions';
 import QuestionTwo from './components/QuestionTwo';
-import Questionthree from './components/Questionthree';
+import Questionthree from './components/Question4';
+import Questionfour from './components/Questionfour'
 function App() {
   return (
   <Router>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/questions" element={<Questions/>}/>
       <Route path="/questiontwo" element={<QuestionTwo/>} />
       <Route path="/questionthree" element={<Questionthree/>} />
+      <Route path="/questionfour" element={<Questionfour/>} />
     </Routes>
   </Router>
  

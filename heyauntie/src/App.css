@@ -102,6 +102,11 @@ label{
   font-family:Bely;
   font-size:25px;
 }
+
+.three-box{
+  font-size:20px;
+  font-family:Bely;
+}
 .questions-btn, .question2-btn{
 text-align: center;
 padding:30px;
