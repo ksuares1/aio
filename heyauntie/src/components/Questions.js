@@ -28,8 +28,7 @@ const Ask =()=>{
                 </label>
                 </div>
                 </form>
-                
-        </div>
+                </div>
         </>
     )
 }
