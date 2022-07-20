@@ -52,10 +52,10 @@
   flex-direction: column;
 }
 
-#invite{
-   float:right;  
+#invite{ 
   font-family: Bely;
-  font-size: 20px;
+  background-color:  #001130;
+  font-size: 18px;
 }
 
 #log-btn{
@@ -63,6 +63,8 @@
   color:white;
   font-family: Bely;
   font-size: 18px;
+  width:18%;
+
 }
 
 .home-para{
