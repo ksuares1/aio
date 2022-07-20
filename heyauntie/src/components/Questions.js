@@ -15,16 +15,16 @@ const Ask =()=>{
                 <h2 class="form-questions">What is your area of interest? </h2>
                 <div class="question-checkboxes">
                 <label>
-                <input type="checkbox"/>Self Esteem
+                <input class="box" type="checkbox"/>Self Esteem
                 </label>
                 <label>
-                <input type="checkbox"/>Finances
+                <input class="box" type="checkbox"/>Finances
                 </label>
                 <label>
-                <input type="checkbox"/>Relationsips
+                <input class="box" type="checkbox"/>Relationsips
                 </label>
                 <label>
-                <input type="checkbox"/>Career  
+                <input class="box" type="checkbox"/>Career  
                 </label>
                 </div>
                 </form>
