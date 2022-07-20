@@ -1,5 +1,5 @@
 import Toolbar from "./Navbar";
-
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -26,6 +26,11 @@ const Ask =()=>{
                 <label>
                 <input class="box" type="checkbox"/>Career  
                 </label>
+                </div>
+                <div class="questions-btn">
+                <a href="/questiontwo">
+                <Button variant="secondary">Next</Button>{' '}
+                </a>
                 </div>
                 </form>
                 </div>

@@ -102,7 +102,11 @@ label{
   font-family:Bely;
   font-size:25px;
 }
-/*  */
+.questions-btn, .question2-btn{
+text-align: center;
+padding:30px;
+}
+
 
 
 
