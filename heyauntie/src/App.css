@@ -88,12 +88,14 @@
   text-align: center;
   /* height:35%; */
   padding:50px;
+  /* color:white; */
 }
 
 
 .question-checkboxes{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   
 }
 
@@ -103,8 +105,8 @@ label{
   font-size:25px;
 }
 
-.three-box{
-  font-size:20px;
+.four-box{
+  font-size:15px;
   font-family:Bely;
 }
 .questions-btn, .question2-btn{

@@ -6,7 +6,7 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Questions from './Pages/Questions';
 import QuestionTwo from './components/QuestionTwo';
-import Questionthree from './components/Question4';
+import Questionthree from './components/Questionthree';
 import Questionfour from './components/Questionfour'
 function App() {
   return (
