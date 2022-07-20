@@ -75,6 +75,11 @@
 .home-heading{
   font-family: Bely;
 }
+
+/* Questions */
+.questions-bkg{
+  background-image:url("../src/assets/img/questions-bkg.png");
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
