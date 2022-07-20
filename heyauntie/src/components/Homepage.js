@@ -9,7 +9,8 @@ const Homepage=()=>{
             <div class="text-container">
                     <h1 class="home-heading"> A community to help you rise and thrive.</h1> 
                     <br/>
-                    <p class="home-para"> HeyAuntie is a culturally sensitive, safe, supportive,and accessible, platform for black women, and the unique challenges we face in our everyday lives.</p>
+                    <p class="home-para">Hey Auntie! is a platform facilitating connections for Black women across ages and life stages to learn the "rules", gain the tools, and deepen their networks to thrive at home, work, and everywhere in between. 
+                    </p>
                     <br/>
                     <div class="btns-container">
                     <div className="mb-2">
