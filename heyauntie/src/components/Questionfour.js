@@ -4,11 +4,15 @@ import Button from 'react-bootstrap/Button';
 
 
 const Questionfour =() =>{
+ const handleSubmit= event =>{
+    event.preventDefault();
+    alert('Welcome to HeyAuntie')
+}  
     return(
         <div class="questions-bkg">
         <Toolbar/>
       
-            <form>
+            <form onSubmit ={handleSubmit}>
                 <h2 class="form-questions">Please select from the option you idenitify most with: </h2>
                 <div class="question-checkboxes">
                 <label>
@@ -25,12 +29,13 @@ const Questionfour =() =>{
                 </div>
                 <div class="question2-btn">
                 <a href="/">
-                <Button variant="secondary">Submit</Button>{' '}
+                <Button type="submit" variant="secondary">Submit</Button>{' '}
                 </a>
                 </div>
                 </form>
                 </div>
     )
 }
+
 
 export default Questionfour;
