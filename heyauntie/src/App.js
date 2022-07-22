@@ -8,6 +8,7 @@ import Questions from './Pages/Questions';
 import QuestionTwo from './components/QuestionTwo';
 import Questionthree from './components/Questionthree';
 import Questionfour from './components/Questionfour'
+import DiscussionBoard from './Pages/Dashboard';
 function App() {
   return (
   <Router>
@@ -18,6 +19,8 @@ function App() {
       <Route path="/questiontwo" element={<QuestionTwo/>} />
       <Route path="/questionthree" element={<Questionthree/>} />
       <Route path="/questionfour" element={<Questionfour/>} />
+      <Route path="/questionfour" element={<Questionfour/>} />
+      <Route path="/dashboard" element={<DiscussionBoard/>} />
     </Routes>
   </Router>
  

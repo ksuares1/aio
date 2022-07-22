@@ -143,6 +143,24 @@ padding:30px;
   font-size:15px;
 }
 
+/* .password-label, user-label{
+  font-size: 40px;
+  font-family: Bely;
+} */
+
+.dashboard-bkg{
+ background-color: #E9A392 ;
+ background-size:cover 
+}
+
+.ladies{
+  text-align: center;
+}
+
+
+.ladies-working{
+  width:50%;
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

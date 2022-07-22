@@ -80,7 +80,7 @@ const Login =() =>{
             <form onSubmit={handleSubmit}>
                 <div>
                     {/* Username */}
-                <label htmlFor="username">Username</label>
+                <label id= "user-label" htmlFor="username">Username</label>
                 <div>
                 <input type="text" id="username" ref={userRef}
                 autoComplete="off"
@@ -91,14 +91,16 @@ const Login =() =>{
 
                 {/* Password */}
                 <div>
-                <label htmlFor="password"> Password</label>
+                <label id="password-label" htmlFor="password"> Password</label>
                 <div>
                 <input type="password" id="password" 
                 onChange={(e) => setPwd(e.target.value)}
                 value={pwd} required />
 
                 <div class="login-btn">
+                    <a href ="/dashboard">
                 <Button variant="success">Login</Button>{' '}
+                </a>
                 </div>
                 </div>
                 </div>
@@ -112,7 +114,7 @@ const Login =() =>{
               </form>
              <p>Need an account?</p>
              <span className="line">
-                <a href ="/signup">Sign Up</a>
+                <a href ="/questions">Sign Up</a>
              </span>
              </div>
             </div>
