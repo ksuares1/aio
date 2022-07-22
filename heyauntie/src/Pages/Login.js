@@ -1,13 +1,13 @@
-import Signup from "../components/Login"
+import Login from "../components/Login"
 
 
 
-const Login=()=>{
+const LoginPage=()=>{
     return(
         <>
-        <Signup/>
+        <Login/>
        </>
     )
 }
 
-export default Login;
+export default LoginPage;

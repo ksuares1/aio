@@ -11,12 +11,12 @@ const QuestionTwo =() =>{
             <form>
                 <h2 class="form-questions">Please select from one of the options below: </h2>
                 <div class="question-checkboxes">
-                <label>
-                <input class="box" type="checkbox"/>I want to invest in the area of self-esteem, finances, relationships, or career. 
+                <label class="checkbox 1">
+                <input class="box" type="checkbox-1"/>I want to invest in the area of self-esteem, finances, relationships, or career. 
                 </label>
                 <br/>
-                <label>
-                <input class="box" type="checkbox"/>I want to grow in the area of self-esteem, finances, relationship or career. 
+                <label class="checkbox 2">
+                <input class="box" type="checkbox-2"/>I want to grow in the area of self-esteem, finances, relationship or career. 
                 </label>
                 </div>
                 <div class="question2-btn">
