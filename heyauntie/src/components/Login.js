@@ -27,17 +27,24 @@ const Login =() =>{
             </a>
             <form>
                 <div>
+                    {/* Username */}
                 <label htmlFor="username">Username</label>
+                <div>
                 <input type="text" id="username" ref={userRef}
                 autocomplete="off"
                 onChange={(e) => setUser(e.target.value)}
                 value={user} required />
                 </div>
+                </div>
+
+                {/* Password */}
                 <div>
-                <label htmlFor="password"> Password:</label>
-                <input type="password" id="password" ref={userRef}
+                <label htmlFor="password"> Password</label>
+                <div>
+                <input type="password" id="password" 
                 onChange={(e) => setPwd(e.target.value)}
-                value={user} required />
+                value={pwd} required />
+                </div>
                 </div>
                 <br/>
                 <div class="login-btn ">

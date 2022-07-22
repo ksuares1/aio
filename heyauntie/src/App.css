@@ -128,7 +128,12 @@ padding:30px;
   align-items: center;
  }
 
-
+#username, #password{
+  border-radius: 8px;
+  width:180px;
+  font-family:Bely;
+  font-size:15px;
+}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
