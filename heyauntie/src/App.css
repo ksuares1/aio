@@ -157,11 +157,14 @@ padding:30px;
   text-align: center;
 }
 
-.profile-bkg{
-  background-image: url(../src/assets/img/home-bk.png);
-  background-size: cover;
+.heyladies{
+  text-align: center;
 }
 
+.user-identifies{
+text-align:center;
+padding:80px;
+}
 .ladies-working{
   width:50%;
 }
