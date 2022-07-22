@@ -1,8 +1,12 @@
 import Button from 'react-bootstrap/Button';
-import{useRef, useState, useEffect} from 'react';
+import{useRef, useState, useEffect, useContext} from 'react';
+import AuthContext from '../context/AuthProvider';
+import axios from '../api/axios';
 
-
+const LOGIN_URL= '/auth';
 const Login =() =>{
+
+    const{setAuth}= useContext(AuthContext);
     // User Input
     const userRef=useRef();
     // User Password
@@ -15,12 +19,40 @@ const Login =() =>{
     useEffect(() => {
         setErrMsg('');
     }, [user,pwd])
+
     const handleSubmit =async(e) =>{
         e.preventDefault();
-        console.log(user,pwd)
-        setUser('');
-        setPwd('');
-        setSuccess(true);
+        try{
+            const response= await axios.post(LOGIN_URL, JSON.stringify({user,pwd}),
+            {
+                headers:{'Content-Type': 'application/json'},
+                withCredentials:true
+            });
+
+            console.log(JSON.stringify(response?.data));
+            const accessToken = response?.data?.accessToken;
+            const roles=response?.data.roles;
+            setAuth({user, pwd, roles, accessToken})
+            setUser('');
+            setPwd('');
+            setSuccess(true);
+        }   
+            catch(err){
+                if(!err?.response){
+                    setErrMsg('No Server Response');
+                }
+                else if(err.response?.status === 400){
+                    setErrMsg('Missing Username or Password');
+                }
+                else if(err.response?.status === 401){
+                    setErrMsg('Unauthorized');
+                }
+                else{
+                    setErrMsg('Login Failed');
+                }
+                    errRef.current.focus();
+        }
+         
     }
 
  return(
@@ -30,7 +62,7 @@ const Login =() =>{
                 <h1> You are logged in!</h1>
                 <br/>
                 <p>
-                    <a href="/dashboard"> Go to Dashboard</a>
+                    <a href="/home"> Go to Dashboard</a>
                 </p>
                  </section>
         ) : (
@@ -51,7 +83,7 @@ const Login =() =>{
                 <label htmlFor="username">Username</label>
                 <div>
                 <input type="text" id="username" ref={userRef}
-                autocomplete="off"
+                autoComplete="off"
                 onChange={(e) => setUser(e.target.value)}
                 value={user} required />
                 </div>
