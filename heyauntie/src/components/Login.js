@@ -44,17 +44,23 @@ const Login =() =>{
                 <input type="password" id="password" 
                 onChange={(e) => setPwd(e.target.value)}
                 value={pwd} required />
+
+                <div class="login-btn">
+                <Button variant="success">Login</Button>{' '}
+                </div>
                 </div>
                 </div>
                 <br/>
-                <div class="login-btn ">
+
+
+                <div class="signup-btn ">
            <Button variant="outline-secondary">Login with Gmail</Button>{' '}
             </div>
               </form>
              <p>Need an account?</p>
              <span className="line">
                 {/* put router link here */}
-                <a href ="/signup"> Sign Up</a>
+                <a href ="/signup">Sign Up</a>
              </span>
              </div>
             </div>
