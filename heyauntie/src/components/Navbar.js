@@ -12,7 +12,7 @@ function Toolbar() {
       {[false,].map((expand) => (
         <Navbar key={expand} bg="none" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="/"><img class="logo"src={require("../assets/img/pink-logo.png")} alt="heyauntie-logo" /></Navbar.Brand>
+            <Navbar.Brand href="/"><img class="logo"src={require("../assets/img/blue-logo.png")} alt="heyauntie-logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
