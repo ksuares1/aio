@@ -215,9 +215,17 @@ padding:30px;
   font-weight: bold;
 }
 
-.auntie-profile{
+.auntee-profile{
   background-color: #E9A392;
   background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+
+auntee-profile{
+  display: flex;
+  flex-direction: column;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

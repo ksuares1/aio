@@ -5,8 +5,12 @@ const AunteePage=()=>{
     return(
         <div class="auntee-profile">
             <Toolbar/>
-
+            <div class="auntee-pic">
+            
+            </div>
         </div>
+
+       
     )
 }
 
