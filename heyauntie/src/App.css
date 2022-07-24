@@ -163,10 +163,37 @@ padding:30px;
 
 .user-identifies{
 text-align:center;
-padding:80px;
+}
+
+
+.ladies-question{
+  padding:100px;
 }
 .ladies-working{
   width:50%;
+}
+
+.auntie-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:50px;
+}
+
+.identify-auntie{
+  text-align:center;
+  font-family:Bely;
+}
+
+.identify-auntee{
+  text-align: center;
+  color:#004736;
+  font-family: Bely;
+  font-weight: bold;
+}
+
+.ladies{
+  text-align: c;
 }
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
