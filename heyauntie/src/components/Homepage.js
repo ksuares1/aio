@@ -19,7 +19,7 @@ const Homepage=()=>{
                      Login
                      </Button>{' '}
                      </a>
-                     <a href="/questions">
+                     <a href="/survey">
                 <Button id="invite" variant="secondary" size="sm">
                     Request an Invite
                 </Button>
