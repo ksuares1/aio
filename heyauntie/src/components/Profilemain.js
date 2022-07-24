@@ -10,9 +10,9 @@ const MainProfile=() =>{
         <div class="heyladies">
             <h1 class="ladies-question" >Ask a Question</h1>
             <div class="auntie-links">
-                <a href="auntie"><h3 class="identify-auntie">I'm an auntie</h3></a>
-                <a href="auntee">
-                <h3 class="identify-auntee">I'm an auntee</h3>
+                <a href="/auntie"><h3 class="identify-auntie">I'm an Auntie</h3></a>
+                <a href="/auntee">
+                <h3 class="identify-auntee">I'm an Auntee</h3>
                  </a>
                  </div>  
                  <div>

@@ -215,7 +215,10 @@ padding:30px;
   font-weight: bold;
 }
 
-
+.auntie-profile{
+  background-color: #E9A392;
+  background-size: cover;
+}
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {

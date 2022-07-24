@@ -7,6 +7,11 @@ import LoginPage from './Pages/Login';
 import DiscussionBoard from './Pages/Dashboard';
 import MainProfile from './components/Profilemain';
 import Questions from './Pages/Questions';
+import Auntee from './Pages/Auntee';
+
+
+
+
 function App() {
   return (
   <Router>
@@ -16,6 +21,7 @@ function App() {
       <Route path= "/survey" element={<Questions/>} />
       <Route path="/dashboard" element={<DiscussionBoard/>} />
       <Route path="/profilemain" element={<MainProfile/>} />
+      <Route path="/auntee"  element={<Auntee/>}/>
     </Routes>
   </Router>
  

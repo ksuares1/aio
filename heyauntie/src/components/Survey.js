@@ -1,5 +1,9 @@
 import { PopupButton } from '@typeform/embed-react'
 import Toolbar from './Navbar';
+
+
+
+
 const Survey = () => {
   return (
     <div class="survey">
