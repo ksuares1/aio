@@ -153,21 +153,16 @@ padding:30px;
  background-size:cover 
 }
 
-.ladies{
-  text-align: center;
-}
-
 .heyladies{
   text-align: center;
 }
 
-.user-identifies{
-text-align:center;
-}
 
 
 .ladies-question{
-  padding:100px;
+  padding:5px;
+  font-weight: bold;
+  color:black;
 }
 .ladies-working{
   width:50%;
@@ -175,18 +170,23 @@ text-align:center;
 
 .auntie-links{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: space-around;
-  padding:50px;
+  align-items: center;
+  padding:15px;
 }
 
 .identify-auntie{
   text-align:center;
   font-family:Bely;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .identify-auntee{
-  text-align: center;
+  display:flex;
+  align-items: center;
   color:#004736;
   font-family: Bely;
   font-weight: bold;
